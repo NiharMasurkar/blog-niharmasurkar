@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="intro">
+  <div class="eyebrow">Robotics &amp; NDE · Notes</div>
+  <h1>Writing.</h1>
+  <p class="lede">Thinking out loud about bio-inspired robotics, nondestructive evaluation, and the things I build along the way.</p>
+</section>
+
+<section class="post-list">
+  {% for post in site.posts %}
+  <a class="post-row" href="{{ post.url }}">
+    <span class="post-row-date">{{ post.date | date: "%Y · %b %d" }}</span>
+    <span class="post-row-body">
+      <span class="post-row-title">{{ post.title }}</span>
+      {% if post.excerpt %}<span class="post-row-excerpt">{{ post.excerpt }}</span>{% endif %}
+    </span>
+    <span class="post-row-arrow">→</span>
+  </a>
+  {% endfor %}
+</section>

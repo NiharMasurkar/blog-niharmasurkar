@@ -1,0 +1,6 @@
+title: Nihar Masurkar — Notes
+description: Writing on bio-inspired robotics, NDE, and building things.
+url: "https://blog.niharmasurkar.com"
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:title/
