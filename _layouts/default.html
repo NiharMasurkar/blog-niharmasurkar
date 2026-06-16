@@ -21,7 +21,23 @@
 <body>
   <nav>
     <div class="nav-inner wrap">
-      <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/logo-mark.svg' | relative_url }}" alt="NM" height="26" width="26" style="height:26px;width:auto;"><span class="brand-text">Notes</span></a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <svg class="brand-logo" viewBox="0 20 540 92" role="img" aria-label="Nihar Masurkar — Robotics and Nondestructive Evaluation" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="nmw" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#F2A65A"/>
+              <stop offset="1" stop-color="#45C8B8"/>
+            </linearGradient>
+          </defs>
+          <g transform="translate(8,15) scale(0.55)" fill="none" stroke="url(#nmw)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M33 132 L33 68 L81 132 L81 68"/>
+            <path d="M111 132 L111 68 L139 108 L167 68 L167 132"/>
+          </g>
+          <line x1="135" y1="34" x2="135" y2="106" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+          <text x="158" y="68" font-size="42" font-family="'Space Grotesk',sans-serif" font-weight="600" fill="#E7ECF5">Nihar Masurkar</text>
+          <text x="160" y="98" font-size="12" font-family="'IBM Plex Mono',monospace" font-weight="500" fill="#45C8B8" letter-spacing="3">ROBOTICS · NONDESTRUCTIVE EVALUATION</text>
+        </svg>
+      </a>
       <div class="nav-links">
         <a href="https://niharmasurkar.com">Main site ↗</a>
       </div>

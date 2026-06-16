@@ -38,6 +38,8 @@ nav{
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:inline-flex;align-items:center;gap:12px;line-height:0}
 .brand img{display:block;height:26px;width:auto}
+.brand-logo{display:block;height:38px;width:auto}
+.brand-mark{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.04em;color:var(--ink)}
 .brand-text{font-family:var(--mono);font-size:13px;color:var(--muted);line-height:1}
 .nav-links a{font-family:var(--mono);font-size:13px;color:var(--muted);transition:color .2s}
 .nav-links a:hover{color:var(--ink)}
@@ -123,5 +125,5 @@ main{padding-top:64px}
   .post-row{flex-direction:column;gap:6px}
   .post-row-date{min-width:auto}
   .post-row-arrow{display:none}
-  .nav-links{display:none}
+  .brand-logo{height:26px}
 }
